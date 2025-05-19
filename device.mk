@@ -390,9 +390,6 @@ PRODUCT_PACKAGES += \
     TelephonyMojito \
     WifiMojito
 
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-afterlife
-
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 

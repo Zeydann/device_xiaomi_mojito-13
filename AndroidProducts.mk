@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/afterlife_mojito.mk
+     $(LOCAL_DIR)/aosp_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    afterlife_mojito-user \
-    afterlife_mojito-userdebug \
-    afterlife_mojito-eng
+    aosp_mojito-user \
+    aosp_mojito-userdebug \
+    aosp_mojito-eng
