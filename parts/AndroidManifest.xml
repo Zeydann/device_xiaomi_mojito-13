@@ -28,7 +28,6 @@
     <protected-broadcast android:name="com.android.systemui.doze.pulse" />
 
     <application
-        android:label="@string/device_settings_app_name"
         android:persistent="true"
         android:theme="@style/Theme.SubSettingsBase">
 
@@ -59,8 +58,7 @@
 
         <activity
             android:name=".doze.DozeSettingsActivity"
-            android:exported="false"
-            android:label="@string/ambient_display_title">
+            android:exported="false">
         </activity>
 
         <activity
