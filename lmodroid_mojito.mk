@@ -11,29 +11,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mojito device
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
-# Inherit some common AfterLife stuff.
-$(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
+# Inherit full common LMODroid stuff
+$(call inherit-product, vendor/lmodroid/config/common_full.mk)
 
 # Product Specifics
-PRODUCT_NAME := afterlife_mojito
+PRODUCT_NAME := lmodroid_mojito
 PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10
 PRODUCT_MANUFACTURER := Xiaomi
 
-# Gapps
-# AFTERLIFE_GAPPS := true
-
-AFTERLIFE_MAINTAINER := psycogenesis
-AFTERLIFE_BUILD_TYPE := OFFICIAL
-
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SUPPORTS_BLUR := true
-
-# Pixel Charging
-USE_PIXEL_CHARGING := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

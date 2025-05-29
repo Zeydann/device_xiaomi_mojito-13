@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/afterlife_mojito.mk
+    $(LOCAL_DIR)/lmodroid_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    afterlife_mojito-user \
-    afterlife_mojito-userdebug \
-    afterlife_mojito-eng
+    lmodroid_mojito-user \
+    lmodroid_mojito-userdebug \
+    lmodroid_mojito-eng
